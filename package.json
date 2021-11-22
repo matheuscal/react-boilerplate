@@ -6,7 +6,7 @@
   "scripts": {
     "start": "webpack serve --mode development",
     "build": "webpack --mode production",
-    "use-sass": "npm i sass-loader",
+    "use-sass": "npm i --save-dev sass-loader sass",
     "use-redux": "npm i @reduxjs/toolkit"
   },
   "keywords": [
